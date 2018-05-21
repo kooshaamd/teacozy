@@ -35,11 +35,10 @@ header{
 }
 
 nav {
-  margin-right: auto;
+  display: flex;
 }
 
 nav span {
-  display: inline-block;
   padding: 15px 10px;
 }
 
@@ -50,4 +49,28 @@ nav span {
 
 .content{
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.mission{
+  background-image: url("../images/img-mission-background.jpg");
+  padding-top: 80px;
+  text-align: center;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.statement {
+  background-color: black;
+  width: 100%;
+}
+
+h2,h3,h4{
+  padding: 10px 10px;
 }
