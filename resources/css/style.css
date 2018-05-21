@@ -73,4 +73,29 @@ nav span {
 
 h2,h3,h4{
   padding: 10px 10px;
+  text-align: center;
+}
+
+.featured{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.teaboxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  padding: 20px 10px;
+}
+
+.teabox{
+  display: block;
+  width: 300px;
+  height: 200px;
+  padding: 10px 10px
 }
