@@ -94,10 +94,18 @@ h2,h3,h4{
 }
 
 .teabox{
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 300px;
   height: 200px;
   padding: 10px 10px
+}
+
+.teabox span{
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .locations{
